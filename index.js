@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer');
 
 async function vote() {
     const browser = await puppeteer.launch({
-        product: 'firefox',
         headless: false
     });
 
